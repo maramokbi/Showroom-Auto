@@ -1,5 +1,9 @@
-<app-head-bar></app-head-bar> 
-<app-search-bar [autos]="autoList" (onSelectCar)="selectCar($event)"></app-search-bar>
+<app-head-bar></app-head-bar>
+
+@if (autos$ | async; as list) {
+  <app-search-bar [autos]="list" (onSelectCar)="selectCar($event)"></app-search-bar>
+}
+
 @if (selectedCar) {
   <section id="detail">
     <div class="dtop">
@@ -13,20 +17,53 @@
         <dl>
           <div class="spec" style="--i: 0"><dt>Brand</dt><dd>{{ selectedCar.brand }}</dd></div>
           <div class="spec" style="--i: 1"><dt>Model</dt><dd>{{ selectedCar.model }}</dd></div>
-          <div class="spec" style="--i: 2"><dt>Price</dt><dd>{{ selectedCar.price }} DNT</dd></div>
-          <div class="spec" style="--i: 3"><dt>Power</dt><dd>{{ selectedCar.power }} CV</dd></div>
-          <div class="spec" style="--i: 4"><dt>Stock</dt><dd>{{ selectedCar.availability }} units available</dd></div>
+          <div class="spec" style="--i: 2">
+            <dt>Price</dt>
+            <dd>@if (selectedCar.url) {From }{{ selectedCar.price.toLocaleString('en-US') }} DNT</dd>
+          </div>
+          @if (selectedCar.power) {
+            <div class="spec" style="--i: 3"><dt>Power</dt><dd>{{ selectedCar.power }} CV</dd></div>
+          }
+          @if (selectedCar.specs?.hp) {
+            <div class="spec" style="--i: 4"><dt>Horsepower</dt><dd>{{ selectedCar.specs?.hp }}</dd></div>
+          }
+          @if (selectedCar.specs?.acceleration) {
+            <div class="spec" style="--i: 5"><dt>0-100 km/h</dt><dd>{{ selectedCar.specs?.acceleration }}</dd></div>
+          }
+          @if (selectedCar.specs?.consumption) {
+            <div class="spec" style="--i: 6"><dt>Consumption</dt><dd>{{ selectedCar.specs?.consumption }}</dd></div>
+          }
+          @if (selectedCar.specs?.trunk) {
+            <div class="spec" style="--i: 7"><dt>Trunk</dt><dd>{{ selectedCar.specs?.trunk }}</dd></div>
+          }
+          @if (selectedCar.availability) {
+            <div class="spec" style="--i: 8"><dt>Stock</dt><dd>{{ selectedCar.availability }} units available</dd></div>
+          }
         </dl>
-        <p class="desc">{{ selectedCar.description }}</p>
+
+        @if (selectedCar.description) {
+          <p class="desc">{{ selectedCar.description }}</p>
+        }
+        @if (selectedCar.url) {
+          <a class="source" [href]="selectedCar.url" target="_blank" rel="noopener">
+            View original listing on Automobile.tn ↗
+          </a>
+        }
       </div>
-      <div class="bigpic">
-        <img [src]="'images/' + selectedCar.photo" [alt]="selectedCar.brand + ' ' + selectedCar.model" />
-      </div>
+
+      @if (selectedCar.photo) {
+        <div class="bigpic">
+          <img [src]="selectedCar.photo" [alt]="selectedCar.brand + ' ' + selectedCar.model" />
+        </div>
+      }
     </div>
   </section>
 }
+
 <footer>
   <span>© 2026 SHOWROOM AUTO - Maram OKBI</span>
+  @if (isScraping) {
+    <span>Educational project · data and photos from Automobile.tn</span>
+  }
   <a href="#top">Back to top ↑</a>
 </footer>
-  

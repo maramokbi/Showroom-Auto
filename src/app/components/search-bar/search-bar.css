@@ -234,3 +234,9 @@ h2 em {
   font-style: italic;
   color: var(--acc);
 }
+.nophoto {
+  font-size: 0.64rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #6b665b;
+}

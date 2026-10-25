@@ -38,7 +38,5 @@ ngOnInit() {
     this.onSelectCar.emit(auto);
   }
 }
-function ngOnInit() {
-  throw new Error('Function not implemented.');
-}
+
 

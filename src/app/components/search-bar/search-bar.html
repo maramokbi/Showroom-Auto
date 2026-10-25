@@ -1,8 +1,9 @@
 <section id="catalog">
-   <div class="intro">
-        <span class="eyebrow">The collection</span>
-        <h2>Every model, <em>one showroom</em></h2>
-   </div>
+  <div class="intro">
+    <span class="eyebrow">The collection</span>
+    <h2>Every model, <em>one showroom</em></h2>
+  </div>
+
   <div class="toolbar">
     <form class="finder" (submit)="selectAutos(brand.value); $event.preventDefault()">
       <label for="brand">Search</label>
@@ -14,29 +15,38 @@
       </div>
     </form>
     <p class="count">
-        <b>{{ selectedAutos.length }}</b> model{{ selectedAutos.length > 1 ? 's' : '' }}
-        @if (currentBrand) { · {{ currentBrand }} }
+      <b>{{ selectedAutos.length }}</b> model{{ selectedAutos.length > 1 ? 's' : '' }}
+      @if (currentBrand) { · {{ currentBrand }} }
     </p>
   </div>
 
-    <div class="cars-container">
-        @for (auto of selectedAutos; track auto.id) {
-            <article class="auto-card">
-            <div class="pic">
-                <img [src]="'images/' + auto.photo" [alt]="auto.brand + ' ' + auto.model" />
+  <div class="cars-container">
+    @for (auto of selectedAutos; track auto.id) {
+      <article class="auto-card">
+        <div class="pic">
+          @if (auto.photo) {
+            <img [src]="auto.photo" [alt]="auto.brand + ' ' + auto.model" />
+          } @else {
+            <span class="nophoto">No photo</span>
+          }
+        </div>
+        <div class="details">
+          <h3><small>{{ auto.brand }}</small>{{ auto.model }}</h3>
+          <dl class="meta">
+            @if (auto.power) {
+              <div><dt>Power</dt><dd>{{ auto.power }} CV</dd></div>
+            }
+            <div>
+              <dt>Price</dt>
+              <dd>@if (auto.url) {From }{{ auto.price.toLocaleString('en-US') }} DNT</dd>
             </div>
-            <div class="details">
-                <h3><small>{{ auto.brand }}</small>{{ auto.model }}</h3>
-                <dl class="meta">
-                <div><dt>Power</dt><dd>{{ auto.power }} CV</dd></div>
-                <div><dt>Price</dt><dd>{{ auto.price }} DNT</dd></div>
-                <div><dt>Stock</dt><dd [class.low]="auto.availability <= 3">{{ auto.availability }} left</dd></div>
-                </dl>
-                <button class="btn view" type="button" (click)="selectCar(auto)">View <i>→</i></button>
-            </div>
-            </article>
-        }
-    </div>
+            @if (auto.availability) {
+              <div><dt>Stock</dt><dd [class.low]="auto.availability <= 3">{{ auto.availability }} left</dd></div>
+            }
+          </dl>
+          <button class="btn view" type="button" (click)="selectCar(auto)">View <i>→</i></button>
+        </div>
+      </article>
+    }
+  </div>
 </section>
-
-
