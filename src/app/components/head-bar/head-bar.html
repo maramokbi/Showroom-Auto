@@ -1,4 +1,24 @@
-
-<div class="header">
-    <h1>Welcome to my showroom!</h1>
+<nav class="topnav">
+  <a href="#top" class="logo">Showroom<small>Auto</small></a>
+  <div class="links">
+    <a href="#top">Home</a>
+    <a href="#catalog">Catalog</a>
+  </div>
+</nav>
+<div class="header" id="top">
+    <div class="stage">
+        <video autoplay muted [muted]="true" loop playsinline poster="video/poster.jpg">
+            <source src="video/header.webm" type="video/webm" />
+            <source src="video/header.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div class="shade"></div>
+        <h1>
+            <span class="l"><span>Welcome to</span></span>
+            <span class="l"><span>my <em>showroom</em></span></span>
+        </h1>
+    <div class="header-cta">
+        <p>Discover every car of our collection and search by brand or model.</p>
+        <a class="btn fill" href="#catalog">Browse the catalog</a>
+    </div>
 </div>

@@ -2,17 +2,8 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeadBar } from './components/head-bar/head-bar';
 import { SearchBar } from './components/search-bar/search-bar';
+import { Auto } from './interfaces/auto';
 
-interface Auto {
-  id: number;
-  brand: string;
-  model: string;
-  price: number;
-  power: number;
-  photo: string;
-  availability: number;
-  description: string;
-}
 
 @Component({
   imports: [RouterOutlet, HeadBar, SearchBar],
@@ -30,8 +21,11 @@ export class App {
   selectedCar: Auto | null = null;
 
   selectCar(auto: Auto) {
-    this.selectedCar = auto;
-  }
+  this.selectedCar = auto;
+  setTimeout(() => {
+    document.getElementById('detail')?.scrollIntoView({ behavior: 'smooth' });
+  }, 60);
+}
   
   autoList: Auto[] = [
     {     

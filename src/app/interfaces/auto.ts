@@ -2,7 +2,7 @@ export interface Auto {
     id: number;
     brand: string;
     model: string;
-    year: number;
+    year?: number;
     price: number;
     power: number;
     photo: string;

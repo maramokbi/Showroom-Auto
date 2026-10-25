@@ -1,25 +1,42 @@
-<div class="container">
-    <label for="search">Search:</label>
-    <input type="text" #brand (input)="selectAutos(brand.value)" />
-    <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
-</div>
+<section id="catalog">
+   <div class="intro">
+        <span class="eyebrow">The collection</span>
+        <h2>Every model, <em>one showroom</em></h2>
+   </div>
+  <div class="toolbar">
+    <form class="finder" (submit)="selectAutos(brand.value); $event.preventDefault()">
+      <label for="brand">Search</label>
+      <div class="fld">
+        <input type="search" id="brand" #brand placeholder="Example : BMW" />
+        <button class="ico" type="submit" aria-label="Search">
+          <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+        </button>
+      </div>
+    </form>
+    <p class="count">
+        <b>{{ selectedAutos.length }}</b> model{{ selectedAutos.length > 1 ? 's' : '' }}
+        @if (currentBrand) { · {{ currentBrand }} }
+    </p>
+  </div>
 
-<div class="cars-container">
-    @for(auto of selectedAutos ; track auto.id)
-        {
-            <div class="auto-card">
-                <img [src]="`images/${auto.photo}`" />
-                <div class="details">
-                    <h3>{{auto.brand}} {{auto.model}}</h3>
-                    <p> 
-                        Power: {{auto.power}} <br>
-                        Price: {{auto.price}} DNT <br>
-                        only {{auto.availability}} left in stock!
-                    </p>
-                </div>
-                <div class="see_more">
-                    <button (click)="selectCar(auto)">See More...</button>
-                </div>
+    <div class="cars-container">
+        @for (auto of selectedAutos; track auto.id) {
+            <article class="auto-card">
+            <div class="pic">
+                <img [src]="'images/' + auto.photo" [alt]="auto.brand + ' ' + auto.model" />
             </div>
+            <div class="details">
+                <h3><small>{{ auto.brand }}</small>{{ auto.model }}</h3>
+                <dl class="meta">
+                <div><dt>Power</dt><dd>{{ auto.power }} CV</dd></div>
+                <div><dt>Price</dt><dd>{{ auto.price }} DNT</dd></div>
+                <div><dt>Stock</dt><dd [class.low]="auto.availability <= 3">{{ auto.availability }} left</dd></div>
+                </dl>
+                <button class="btn view" type="button" (click)="selectCar(auto)">View <i>→</i></button>
+            </div>
+            </article>
         }
-</div>
+    </div>
+</section>
+
+

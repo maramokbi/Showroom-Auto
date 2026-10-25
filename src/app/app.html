@@ -1,7 +1,32 @@
 <app-head-bar></app-head-bar> 
 <app-search-bar [autos]="autoList" (onSelectCar)="selectCar($event)"></app-search-bar>
-@if(selectedCar){
-    {{selectedCar.model}}
-    <p>Power: {{selectedCar.power}}</p>
+@if (selectedCar) {
+  <section id="detail">
+    <div class="dtop">
+      <span class="eyebrow">Selected model</span>
+      <a class="back" href="#catalog" (click)="selectedCar = null">← Back to the catalog</a>
+    </div>
+
+    <div class="dgrid">
+      <div>
+        <h3 class="dtitle">{{ selectedCar.brand }} {{ selectedCar.model }}</h3>
+        <dl>
+          <div class="spec" style="--i: 0"><dt>Brand</dt><dd>{{ selectedCar.brand }}</dd></div>
+          <div class="spec" style="--i: 1"><dt>Model</dt><dd>{{ selectedCar.model }}</dd></div>
+          <div class="spec" style="--i: 2"><dt>Price</dt><dd>{{ selectedCar.price }} DNT</dd></div>
+          <div class="spec" style="--i: 3"><dt>Power</dt><dd>{{ selectedCar.power }} CV</dd></div>
+          <div class="spec" style="--i: 4"><dt>Stock</dt><dd>{{ selectedCar.availability }} units available</dd></div>
+        </dl>
+        <p class="desc">{{ selectedCar.description }}</p>
+      </div>
+      <div class="bigpic">
+        <img [src]="'images/' + selectedCar.photo" [alt]="selectedCar.brand + ' ' + selectedCar.model" />
+      </div>
+    </div>
+  </section>
 }
+<footer>
+  <span>© 2026 SHOWROOM AUTO - Maram OKBI</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
   

@@ -1,5 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  background-color: #f9f6f0;
+:root {
+  --bg: #0a0a0b;
+  --bg2: #121214;
+  --fg: #f2f0ec;
+  --mut: #9a978f;
+  --line: rgba(255, 255, 255, 0.14);
+  --acc: #d8c7a1;
+  --pearl: #ece9e3;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --serif: "Cormorant Garamond", "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --hh: 68px;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--hh);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid var(--fg);
+  padding: 14px 30px;
+  font: inherit;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  transition: 0.35s;
+  cursor: pointer;
+  background: none;
+  color: var(--fg);
+}
+
+.btn:hover,
+.btn.fill {
+  background: var(--fg);
+  color: #000;
+}
+
+.btn.fill:hover {
+  background: var(--acc);
+  border-color: var(--acc);
 }
