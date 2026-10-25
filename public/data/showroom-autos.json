@@ -1,0 +1,442 @@
+[
+  {
+    "id": 47270,
+    "brand": "Audi",
+    "model": "Q8",
+    "price": 525000,
+    "power": 22,
+    "photo": "audi-q8.jpg",
+    "description": "The Audi Q8 is a 5-seat SUV with a essence | hybride léger powertrain delivering 340 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 5.6 seconds and reaches 250 km/h. Combined fuel consumption is 8.9 L/100 km. The boot offers 605 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/audi/q8/55-tfsi-tiptronic-quattro-2025",
+    "scrapedAt": "2026-10-25T12:10:19.534Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Essence | Hybride léger",
+      "hp": "340 CH",
+      "gearbox": "Automatique",
+      "acceleration": "5.6 s",
+      "consumption": "8.9 L/100 km",
+      "trunk": "605 L"
+    }
+  },
+  {
+    "id": 47485,
+    "brand": "Audi",
+    "model": "Q6 Sportback e-tron",
+    "price": 279000,
+    "power": 9,
+    "photo": "audi-q6-sportback-e-tron.png",
+    "description": "The Audi Q6 Sportback e-tron is a 5-seat SUV with a electrique powertrain delivering 388 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 5.9 seconds and reaches 210 km/h. The boot offers 511 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/audi/q6-sportback-e-tron/100-kwh-quattro-s-line",
+    "scrapedAt": "2026-10-25T12:10:21.438Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Electrique",
+      "hp": "388 CH",
+      "gearbox": "Automatique",
+      "acceleration": "5.9 s",
+      "trunk": "511 L"
+    }
+  },
+  {
+    "id": 47409,
+    "brand": "Audi",
+    "model": "Q6 e-tron",
+    "price": 234990,
+    "power": 9,
+    "photo": "audi-q6-e-tron.png",
+    "description": "The Audi Q6 e-tron is a 5-seat SUV with a electrique powertrain delivering 388 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 5.9 seconds and reaches 210 km/h. The boot offers 526 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/audi/q6-e-tron/100-kwh-quattro-s-line",
+    "scrapedAt": "2026-10-25T12:10:25.916Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Electrique",
+      "hp": "388 CH",
+      "gearbox": "Automatique",
+      "acceleration": "5.9 s",
+      "trunk": "526 L"
+    }
+  },
+  {
+    "id": 47623,
+    "brand": "Audi",
+    "model": "Q3 Sportback",
+    "price": 229000,
+    "photo": "audi-q3-sportback.png",
+    "description": "The Audi Q3 Sportback is a 5-seat SUV with a petrol powertrain delivering 150 hp. It features automatic transmission and front-wheel drive. It accelerates from 0 to 100 km/h in 8.9 seconds and reaches 204 km/h. Combined fuel consumption is 5.9 L/100 km. The boot offers 488 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/audi/q3-sportback/tfsi-s-tronic-s-line",
+    "scrapedAt": "2026-10-25T12:10:30.305Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Essence",
+      "hp": "150 CH",
+      "gearbox": "Automatique",
+      "acceleration": "8.9 s",
+      "consumption": "5.9 L/100 km",
+      "trunk": "488 L"
+    }
+  },
+  {
+    "id": 47450,
+    "brand": "BMW",
+    "model": "X5 Hybride",
+    "price": 379900,
+    "power": 21,
+    "photo": "bmw-x5-hybride.jpg",
+    "description": "The BMW X5 Hybride is a 5-seat SUV with a essence | hybride rechargeable powertrain delivering 489 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 4.8 seconds and reaches 250 km/h. Combined fuel consumption is 1.2 L/100 km. The boot offers 500 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/bmw/x5-hybride/50e-x-drive-m-pack-m",
+    "scrapedAt": "2026-10-25T12:10:34.307Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Essence | Hybride rechargeable",
+      "hp": "489 CH",
+      "gearbox": "Automatique",
+      "acceleration": "4.8 s",
+      "consumption": "1.2 L/100 km",
+      "trunk": "500 L"
+    }
+  },
+  {
+    "id": 47397,
+    "brand": "BMW",
+    "model": "Série 4 Coupé",
+    "price": 366900,
+    "power": 10,
+    "photo": "bmw-serie-4-coupe.jpg",
+    "description": "The BMW Série 4 Coupé is a 4-seat coupe with a petrol powertrain delivering 184 hp. It features automatic transmission and rear-wheel drive. It accelerates from 0 to 100 km/h in 7.5 seconds and reaches 240 km/h. Combined fuel consumption is 6.4 L/100 km. The boot offers 440 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/bmw/serie-4-coupe/420i-pack-m-pro",
+    "scrapedAt": "2026-10-25T12:10:38.286Z",
+    "specs": {
+      "body": "Coupé",
+      "energy": "Essence",
+      "hp": "184 CH",
+      "gearbox": "Automatique",
+      "acceleration": "7.5 s",
+      "consumption": "6.4 L/100 km",
+      "trunk": "440 L"
+    }
+  },
+  {
+    "id": 47691,
+    "brand": "BMW",
+    "model": "Z4",
+    "price": 359900,
+    "power": 11,
+    "photo": "bmw-z4.jpg",
+    "description": "The BMW Z4 is a 2-seat convertible with a petrol powertrain delivering 197 hp. It features automatic transmission and rear-wheel drive. It accelerates from 0 to 100 km/h in 6.6 seconds and reaches 240 km/h. Combined fuel consumption is 7.2 L/100 km. The boot offers 281 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/bmw/z4/sdrive-20i-pack-m",
+    "scrapedAt": "2026-10-25T12:10:42.241Z",
+    "specs": {
+      "body": "Cabriolet",
+      "energy": "Essence",
+      "hp": "197 CH",
+      "gearbox": "Automatique",
+      "acceleration": "6.6 s",
+      "consumption": "7.2 L/100 km",
+      "trunk": "281 L"
+    }
+  },
+  {
+    "id": 47667,
+    "brand": "BMW",
+    "model": "iX3",
+    "price": 299900,
+    "power": 13,
+    "photo": "bmw-ix3.jpg",
+    "description": "The BMW iX3 is a 5-seat SUV with a electrique powertrain delivering 469 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 4.9 seconds and reaches 210 km/h. The boot offers 520 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/bmw/ix3/50-xdrive-pack-m-pro",
+    "scrapedAt": "2026-10-25T12:10:46.390Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Electrique",
+      "hp": "469 CH",
+      "gearbox": "Automatique",
+      "acceleration": "4.9 s",
+      "trunk": "520 L"
+    }
+  },
+  {
+    "id": 47425,
+    "brand": "Mercedes-Benz",
+    "model": "Classe G Electrique",
+    "price": 599000,
+    "photo": "mercedes-benz-classe-g-electric.png",
+    "description": "The Mercedes-Benz Classe G Electrique is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/mercedes-benz/classe-g-electric",
+    "scrapedAt": "2026-10-25T12:10:50.520Z",
+    "specs": {}
+  },
+  {
+    "id": 47314,
+    "brand": "Mercedes-Benz",
+    "model": "EQS Berline",
+    "price": 469900,
+    "power": 10,
+    "photo": "mercedes-benz-eqs-berline.png",
+    "description": "The Mercedes-Benz EQS Berline is a 5-seat sedan with a electrique powertrain delivering 360 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 6.2 seconds and reaches 210 km/h. The boot offers 620 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/mercedes-benz/eqs-berline/450-4matic-amg",
+    "scrapedAt": "2026-10-25T12:10:54.464Z",
+    "specs": {
+      "body": "Berline",
+      "energy": "Electrique",
+      "hp": "360 CH",
+      "gearbox": "Automatique",
+      "acceleration": "6.2 s",
+      "trunk": "620 L"
+    }
+  },
+  {
+    "id": 47140,
+    "brand": "Mercedes-Benz",
+    "model": "Classe V",
+    "price": 468000,
+    "power": 12,
+    "photo": "mercedes-benz-classe-v.png",
+    "description": "The Mercedes-Benz Classe V is a 6-seat MPV with a diesel powertrain delivering 190 hp. It features automatic transmission and rear-wheel drive. It accelerates from 0 to 100 km/h in 10 seconds and reaches 205 km/h. Combined fuel consumption is 5.9 L/100 km. The boot offers 1410 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/mercedes-benz/classe-v/250-d",
+    "scrapedAt": "2026-10-25T12:10:58.525Z",
+    "specs": {
+      "body": "Monospace",
+      "energy": "Diesel",
+      "hp": "190 CH",
+      "gearbox": "Automatique",
+      "acceleration": "10 s",
+      "consumption": "5.9 L/100 km",
+      "trunk": "1410 L"
+    }
+  },
+  {
+    "id": 47312,
+    "brand": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "price": 399900,
+    "power": 10,
+    "photo": "mercedes-benz-eqe-suv.png",
+    "description": "The Mercedes-Benz EQE SUV is a 5-seat SUV with a electrique powertrain delivering 292 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 6.6 seconds and reaches 210 km/h. The boot offers 520 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/mercedes-benz/eqe-suv/350-4matic",
+    "scrapedAt": "2026-10-25T12:11:03.123Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Electrique",
+      "hp": "292 CH",
+      "gearbox": "Automatique",
+      "acceleration": "6.6 s",
+      "trunk": "520 L"
+    }
+  },
+  {
+    "id": 47076,
+    "brand": "Porsche",
+    "model": "911",
+    "price": 845000,
+    "power": 26,
+    "photo": "porsche-911.jpg",
+    "description": "The Porsche 911 is a 4-seat coupe with a petrol powertrain delivering 385 hp. It features automatic transmission and rear-wheel drive. It accelerates from 0 to 100 km/h in 4 seconds and reaches 293 km/h. Combined fuel consumption is 9.4 L/100 km. The boot offers 132 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/porsche/911/carrera-2024",
+    "scrapedAt": "2026-10-25T12:11:07.189Z",
+    "specs": {
+      "body": "Coupé",
+      "energy": "Essence",
+      "hp": "385 CH",
+      "gearbox": "Automatique",
+      "acceleration": "4 s",
+      "consumption": "9.4 L/100 km",
+      "trunk": "132 L"
+    }
+  },
+  {
+    "id": 47536,
+    "brand": "Porsche",
+    "model": "Panamera 4 E-Hybrid",
+    "price": 529000,
+    "photo": "porsche-panamera-4-e-hybrid.png",
+    "description": "The Porsche Panamera 4 E-Hybrid is a 5-seat sedan with a essence | hybride rechargeable powertrain delivering 470 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 4.1 seconds and reaches 280 km/h. Combined fuel consumption is 1.8 L/100 km. The boot offers 430 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/porsche/panamera-4-e-hybrid/v6",
+    "scrapedAt": "2026-10-25T12:11:10.863Z",
+    "specs": {
+      "body": "Berline",
+      "energy": "Essence | Hybride rechargeable",
+      "hp": "470 CH",
+      "gearbox": "Automatique",
+      "acceleration": "4.1 s",
+      "consumption": "1.8 L/100 km",
+      "trunk": "430 L"
+    }
+  },
+  {
+    "id": 47317,
+    "brand": "Porsche",
+    "model": "Taycan Cross Turismo",
+    "price": 475000,
+    "power": 12,
+    "photo": "porsche-taycan-cross-turismo.png",
+    "description": "The Porsche Taycan Cross Turismo is a 5-seat sedan with a electrique powertrain delivering 435 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 4.7 seconds and reaches 220 km/h. The boot offers 446 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/porsche/taycan-cross-turismo/4-2025",
+    "scrapedAt": "2026-10-25T12:11:14.749Z",
+    "specs": {
+      "body": "Berline",
+      "energy": "Electrique",
+      "hp": "435 CH",
+      "gearbox": "Automatique",
+      "acceleration": "4.7 s",
+      "trunk": "446 L"
+    }
+  },
+  {
+    "id": 47316,
+    "brand": "Porsche",
+    "model": "Taycan",
+    "price": 448000,
+    "photo": "porsche-taycan.png",
+    "description": "The Porsche Taycan is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/porsche/taycan",
+    "scrapedAt": "2026-10-25T12:11:18.571Z",
+    "specs": {}
+  },
+  {
+    "id": 47335,
+    "brand": "Land Rover",
+    "model": "Range Rover",
+    "price": 469900,
+    "power": 28,
+    "photo": "land-rover-range-rover.png",
+    "description": "The Land Rover Range Rover is a 5-seat SUV with a essence | hybride rechargeable powertrain delivering 460 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 5.7 seconds and reaches 225 km/h. Combined fuel consumption is 0.8 L/100 km. The boot offers 818 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/land-rover/range-rover/3.0-l-p460-phev-2025-se",
+    "scrapedAt": "2026-10-25T12:11:22.335Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Essence | Hybride rechargeable",
+      "hp": "460 CH",
+      "gearbox": "Automatique",
+      "acceleration": "5.7 s",
+      "consumption": "0.8 L/100 km",
+      "trunk": "818 L"
+    }
+  },
+  {
+    "id": 47548,
+    "brand": "Land Rover",
+    "model": "Range Rover Sport",
+    "price": 399000,
+    "photo": "land-rover-range-rover-sport.jpg",
+    "description": "The Land Rover Range Rover Sport is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/land-rover/range-rover-sport",
+    "scrapedAt": "2026-10-25T12:11:25.863Z",
+    "specs": {}
+  },
+  {
+    "id": 47481,
+    "brand": "Land Rover",
+    "model": "Range Rover Velar",
+    "price": 395000,
+    "power": 15,
+    "photo": "land-rover-range-rover-velar.png",
+    "description": "The Land Rover Range Rover Velar is a 5-seat SUV with a petrol powertrain delivering 250 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 7.5 seconds and reaches 217 km/h. Combined fuel consumption is 7.7 L/100 km. The boot offers 673 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/land-rover/range-rover-velar/2.0-l-p250-dynamic-se",
+    "scrapedAt": "2026-10-25T12:11:29.709Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Essence",
+      "hp": "250 CH",
+      "gearbox": "Automatique",
+      "acceleration": "7.5 s",
+      "consumption": "7.7 L/100 km",
+      "trunk": "673 L"
+    }
+  },
+  {
+    "id": 47477,
+    "brand": "Land Rover",
+    "model": "Defender 110",
+    "price": 299000,
+    "photo": "land-rover-defender.jpg",
+    "description": "The Land Rover Defender 110 is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/land-rover/defender",
+    "scrapedAt": "2026-10-25T12:11:33.334Z",
+    "specs": {}
+  },
+  {
+    "id": 47332,
+    "brand": "Jaguar",
+    "model": "F-Pace",
+    "price": 425000,
+    "power": 15,
+    "photo": "jaguar-f-pace.jpg",
+    "description": "The Jaguar F-Pace is a 5-seat SUV with a petrol powertrain delivering 250 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 6.8 seconds and reaches 217 km/h. Combined fuel consumption is 7.4 L/100 km. The boot offers 650 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/jaguar/f-pace/2.0-t-250-2025-r-dynamic-s",
+    "scrapedAt": "2026-10-25T12:11:37.486Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Essence",
+      "hp": "250 CH",
+      "gearbox": "Automatique",
+      "acceleration": "6.8 s",
+      "consumption": "7.4 L/100 km",
+      "trunk": "650 L"
+    }
+  },
+  {
+    "id": 47331,
+    "brand": "Jaguar",
+    "model": "E-Pace",
+    "price": 305000,
+    "power": 9,
+    "photo": "jaguar-e-pace.jpg",
+    "description": "The Jaguar E-Pace is a 5-seat SUV with a diesel powertrain delivering 163 hp. It features automatic transmission and all-wheel drive. It accelerates from 0 to 100 km/h in 10 seconds and reaches 206 km/h. Combined fuel consumption is 5.2 L/100 km. The boot offers 577 litres of space.",
+    "url": "https://www.automobile.tn/fr/neuf/jaguar/e-pace/2.0-d-163-2025-r-dynamic-s",
+    "scrapedAt": "2026-10-25T12:11:41.546Z",
+    "specs": {
+      "body": "SUV",
+      "energy": "Diesel",
+      "hp": "163 CH",
+      "gearbox": "Automatique",
+      "acceleration": "10 s",
+      "consumption": "5.2 L/100 km",
+      "trunk": "577 L"
+    }
+  },
+  {
+    "id": 47524,
+    "brand": "Volvo",
+    "model": "XC90",
+    "price": 349900,
+    "photo": "volvo-xc90.jpg",
+    "description": "The Volvo XC90 is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/volvo/xc90",
+    "scrapedAt": "2026-10-25T12:11:45.896Z",
+    "specs": {}
+  },
+  {
+    "id": 47684,
+    "brand": "Volvo",
+    "model": "EX90",
+    "price": 274900,
+    "photo": "volvo-ex90.jpg",
+    "description": "The Volvo EX90 is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/volvo/ex90",
+    "scrapedAt": "2026-10-25T12:11:50.011Z",
+    "specs": {}
+  },
+  {
+    "id": 47522,
+    "brand": "Volvo",
+    "model": "XC60",
+    "price": 239900,
+    "photo": "volvo-xc60.jpg",
+    "description": "The Volvo XC60 is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/volvo/xc60",
+    "scrapedAt": "2026-10-25T12:11:54.497Z",
+    "specs": {}
+  },
+  {
+    "id": 47587,
+    "brand": "Volvo",
+    "model": "ES90",
+    "price": 214900,
+    "photo": "volvo-es90.jpg",
+    "description": "The Volvo ES90 is a car.",
+    "url": "https://www.automobile.tn/fr/neuf/volvo/es90",
+    "scrapedAt": "2026-10-25T12:11:58.515Z",
+    "specs": {}
+  }
+]

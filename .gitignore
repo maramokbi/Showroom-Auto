@@ -44,5 +44,4 @@ __screenshots__/
 Thumbs.db
 
 scraper/node_modules
-public/scraped-photos/
-public/data/
+public/data/autos.json
